@@ -192,8 +192,6 @@ A comprehensive documentation & PPT was produced, containing:
 - Screenshots  
 - Final system design  
 
-Delivered in:  
-`/docs/`
 
 ---
 
