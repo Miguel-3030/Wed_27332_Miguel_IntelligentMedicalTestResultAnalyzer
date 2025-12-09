@@ -1,7 +1,9 @@
 🧪 Intelligent Medical Test Result Analyzer with Alerting System
 📅 Project Details
 
-Student Name: Miguel
+Student Name: GISA Miguel
+
+Student ID: 27332
 
 Project Title: Intelligent Medical Test Result Analyzer with Alerting System
 
