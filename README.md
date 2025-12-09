@@ -124,8 +124,7 @@ A BPMN diagram was created to illustrate the workflow:
 - Alerts generated when necessary  
 - Physicians receive notifications  
 
-<img width="1536" height="1024" alt="BPMN" src="https://github.com/user-attachments/assets/0e91987b-9d10-4f01-9e00-083c819fcca7" />
-
+<img width="1366" height="768" alt="BPMN" src="https://github.com/user-attachments/assets/84e0766b-5050-4cf8-babb-b9517e8c362a" />
 
 ---
 
