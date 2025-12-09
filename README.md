@@ -75,7 +75,8 @@ This system solves the above challenges by providing automated, rule-based resul
 - Alerts generate Notifications
 - All transactions are logged in Audit_Log
 
-> 📁 *ERD included in `/design/ER_diagram.png`*
+<img width="1366" height="768" alt="ERD 2" src="https://github.com/user-attachments/assets/7e85b6e4-9d21-4d53-b6b6-dc7d145d76ce" />
+
 
 ---
 
@@ -123,14 +124,14 @@ A BPMN diagram was created to illustrate the workflow:
 - Alerts generated when necessary  
 - Physicians receive notifications  
 
-*(BPMN diagram included in `/business_process/`)*
+<img width="1536" height="1024" alt="BPMN" src="https://github.com/user-attachments/assets/0e91987b-9d10-4f01-9e00-083c819fcca7" />
+
 
 ---
 
 ### ✔️ Phase III: Logical Design
 - ERD defines all system entities and their relationships  
-- Normalization ensures reliability and reduces redundancy  
-- Data Dictionary included in `design/data_dictionary.md`  
+- Normalization ensures reliability and reduces redundancy    
 
 ---
 
@@ -141,9 +142,8 @@ Database objects created using:
 - Users  
 - Roles and privileges  
 - Physical table structures  
+<img width="1366" height="768" alt="CREATING PDB, CREATING USER  AND GRANTING USER ALL PRIVILEGES" src="https://github.com/user-attachments/assets/77f0339c-02d8-497f-b090-aa567d4f5cd6" />
 
-All scripts located in:  
-`database/scripts/`
 
 ---
 
@@ -159,6 +159,7 @@ Validation ensured correct:
 - Foreign keys  
 - Threshold logic  
 - Business rules  
+<img width="1366" height="768" alt="INSERT INTO ORDERS" src="https://github.com/user-attachments/assets/3609ef1b-3790-44e5-8c4c-f9d6796367ab" />
 
 ---
 
@@ -168,7 +169,7 @@ Developed PL/SQL components include:
 - Alert creation logic  
 - Interpretation function for results  
 - Cursors for batch processing  
-- Package for modularity (`SYSTEM_ALERT_PKG`)  
+- Package for modularity 
 - Triggers for restrictions and auditing  
 
 ---
