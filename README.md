@@ -21,29 +21,29 @@ This project presents a comprehensive, automated, and intelligent database syste
 
 ---
 
-## 💪 Problem Statement
+## Problem Statement
 
 Healthcare facilities often struggle with:
-- 🚨 Delayed detection of abnormal or critical results
-- 📝 Manual test evaluation prone to human error
-- 👁️ Limited visibility for physicians
-- 📊 Lack of centralized auditing or traceability
-- 🔔 No automated mechanisms for alerting or follow-up
+- Delayed detection of abnormal or critical results
+- Manual test evaluation prone to human error
+- Limited visibility for physicians
+- Lack of centralized auditing or traceability
+- No automated mechanisms for alerting or follow-up
 
 This system solves the above challenges by providing automated, rule-based result analysis and alerting.
 
 ---
 
-## 🛍️ Target Users
+## Target Users
 
-- 🥼 Laboratory Technicians
-- 👨‍⚕️ Physicians
-- 👔 Hospital Administrators
-- 🔧 System Administrators
+- Laboratory Technicians
+- Physicians
+- Hospital Administrators
+- System Administrators
 
 ---
 
-## 🚀 Project Goals
+## Project Goals
 
 ✅ Automate detection of abnormal and critical test results  
 ✅ Notify physicians promptly when patient safety is at risk  
@@ -107,11 +107,99 @@ This system solves the above challenges by providing automated, rule-based resul
 
 ## 🛠️ SQL Components
 
-### 🔹 Procedures
+## 📅 Timeline
 
-```sql
-PROCEDURE generate_alerts 
--- Auto-generate alerts when critical thresholds are reached
+### ✔️ Phase I: Problem Definition
+The project identifies major challenges in hospital laboratory result management and proposes an automated system to ensure real-time detection of critical values.
 
-PROCEDURE register_test_order 
--- Register test orders and lab results
+---
+
+### ✔️ Phase II: Business Process Modeling
+A BPMN diagram was created to illustrate the workflow:
+
+- Physician orders tests  
+- Lab processes samples  
+- System analyzes values  
+- Alerts generated when necessary  
+- Physicians receive notifications  
+
+*(BPMN diagram included in `/business_process/`)*
+
+---
+
+### ✔️ Phase III: Logical Design
+- ERD defines all system entities and their relationships  
+- Normalization ensures reliability and reduces redundancy  
+- Data Dictionary included in `design/data_dictionary.md`  
+
+---
+
+### ✔️ Phase IV: Database Creation
+Database objects created using:
+
+- Tablespaces  
+- Users  
+- Roles and privileges  
+- Physical table structures  
+
+All scripts located in:  
+`database/scripts/`
+
+---
+
+### ✔️ Phase V: Data Insertion and Validation
+Realistic sample data inserted to simulate:
+
+- Test orders  
+- Abnormal results  
+- Critical cases triggering alerts  
+
+Validation ensured correct:
+
+- Foreign keys  
+- Threshold logic  
+- Business rules  
+
+---
+
+### ✔️ Phase VI: Procedures, Functions, Triggers, Packages
+Developed PL/SQL components include:
+
+- Alert creation logic  
+- Interpretation function for results  
+- Cursors for batch processing  
+- Package for modularity (`SYSTEM_ALERT_PKG`)  
+- Triggers for restrictions and auditing  
+
+---
+
+### ✔️ Phase VII: Programming & Auditing
+A robust auditing mechanism ensures:
+
+- All sensitive DML actions are logged  
+- DML is restricted during weekends or public holidays  
+- Compliance with data governance standards  
+
+---
+
+### ✔️ Phase VIII: Final Documentation & Presentation
+A comprehensive documentation & PPT was produced, containing:
+
+- Objectives  
+- ERD & BPMN diagrams  
+- SQL structures  
+- Screenshots  
+- Final system design  
+
+Delivered in:  
+`/docs/`
+
+---
+
+## 📄 License
+This project is submitted as part of the **Capstone Project** for:
+
+**Database Development with PL/SQL – Academic Year 2025–2026**  
+**Adventist University of Central Africa (AUCA)**  
+
+> *"Excellence is not an act but a habit — repeated through integrity, discipline, and innovation."*
