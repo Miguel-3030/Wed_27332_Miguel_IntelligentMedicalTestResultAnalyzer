@@ -9,7 +9,7 @@
 | **Project Title** | Intelligent Medical Test Result Analyzer with Alerting System |
 | **Lecturer** | Eric Maniraguha |
 | **Course Code & Name** | INSY 8311 – Database Development with PL/SQL |
-| **Academic Year** | 2024–2025 |
+
 
 ---
 
