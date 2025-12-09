@@ -356,4 +356,5 @@ PROMPT 6. Complex reporting queries
 PROMPT 7. Error handling
 
 -- Final verification
-SELECT '✅ TESTING COMPLETE' AS status FROM dual;
+SELECT ' TESTING COMPLETE' AS status FROM dual;
+
